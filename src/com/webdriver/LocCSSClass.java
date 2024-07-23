@@ -24,7 +24,7 @@ public class LocCSSClass {
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("input.submit-button.btn_action")).click();
 		Thread.sleep(2000);
-		
+
 		driver.close();
 		
 	}

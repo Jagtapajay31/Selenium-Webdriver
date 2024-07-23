@@ -5,8 +5,6 @@ package com.webdriver;
  * tagname#id
  * input#user-name
  */
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
