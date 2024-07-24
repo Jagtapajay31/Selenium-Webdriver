@@ -31,28 +31,28 @@ public class FourthLink {
 //		Thread.sleep(2000);
 		
 		//name
-//		driver.findElement(By.name("email")).sendKeys("Ajay@gmail.com");
-//		Thread.sleep(2000);
-//		driver.findElement(By.name("pass")).sendKeys("123456789");
-//		Thread.sleep(2000);
-//		driver.findElement(By.name("login")).click();
-//		Thread.sleep(2000);
+		driver.findElement(By.name("email")).sendKeys("Ajay@gmail.com");
+		Thread.sleep(2000);
+		driver.findElement(By.name("pass")).sendKeys("123456789");
+		Thread.sleep(2000);
+		driver.findElement(By.name("login")).click();
+		Thread.sleep(2000);
 		
 		//CSSId id is not working
 //		driver.findElement(By.cssSelector("input#email")).sendKeys("Ajay@gmail.com");
 //		Thread.sleep(2000);
 //		driver.findElement(By.cssSelector("input#pass")).sendKeys("123456789");
 //		Thread.sleep(2000);
-//		driver.findElement(By.cssSelector("button#u_0_9_EM")).click();
+//		driver.findElement(By.cssSelector("button#u_0_5_gg")).click();
 //		Thread.sleep(2000);
 		
 		//CSSClass
-		driver.findElement(By.cssSelector("input.inputtext _55r1 _6luy")).sendKeys("Ajay@gmail.com");
-		Thread.sleep(2000);
-		driver.findElement(By.cssSelector("input#inputtext _55r1 _6luy _9npi")).sendKeys("123456789");
-		Thread.sleep(2000);
-		driver.findElement(By.cssSelector("button._42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy")).click();
-		Thread.sleep(2000);
+//		driver.findElement(By.cssSelector("input.inputtext _55r1 _6luy")).sendKeys("Ajay@gmail.com");
+//		Thread.sleep(2000);
+//		driver.findElement(By.cssSelector("input#inputtext _55r1 _6luy _9npi")).sendKeys("123456789");
+//		Thread.sleep(2000);
+//		driver.findElement(By.cssSelector("button._42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy")).click();
+//		Thread.sleep(2000);
 
 		
 		driver.close();	
