@@ -18,10 +18,10 @@ public class DynamicXPath {
 		
 		// //tagname[@attr_name='attr_value']
 		
-		driver.findElement(By.xpath("[input[@name='uid']")).sendKeys("abc");
+		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("abc");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("[input[@name='password']")).sendKeys("123456");
-		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("abc");
+		
 		
 		// //tagename[text()='text_value']
 		
