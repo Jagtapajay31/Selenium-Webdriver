@@ -34,8 +34,7 @@ public class ThirdLink {
 		//XPath
 		driver.findElement(By.xpath("//div[@id='react-select-2-input']")).sendKeys("demouser");
 		Thread.sleep(2000);
-		
+	
 		driver.close();
 	}
-
 }
