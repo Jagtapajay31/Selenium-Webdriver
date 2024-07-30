@@ -18,7 +18,7 @@ public class Ele_MouseEvent {
 //		WebDriver driver=new EdgeDriver();
 		System.setProperty("webdriver.chrome.driver","E:\\Tops 2024\\Selenium\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://demo.guru99.com/test/newtours/");
+		driver.get("https://demo.guru99.com/test/newtours/" );
 		driver.manage().window().maximize();
 		Thread.sleep(2000);	
 		
