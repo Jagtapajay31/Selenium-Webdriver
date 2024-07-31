@@ -29,6 +29,7 @@ public class TopsCareerCenterCopyPast {
 				.keyUp(name, Keys.CONTROL).build();
 		a1.perform();
 		Thread.sleep(2000);
+		
 		Action a2=actions.moveToElement(pass).keyDown(pass, Keys.CONTROL).sendKeys(pass ,"v").keyUp(pass, Keys.CONTROL).build();
 		a2.perform();
 		Thread.sleep(5000);
