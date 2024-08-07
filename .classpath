@@ -27,5 +27,7 @@
 	<classpathentry kind="lib" path="E:/Tops 2024/Selenium/jar_files/jar_files/selenium-remote-driver-3.141.0.jar"/>
 	<classpathentry kind="lib" path="E:/Tops 2024/Selenium/jar_files/jar_files/selenium-safari-driver-3.141.0.jar"/>
 	<classpathentry kind="lib" path="E:/Tops 2024/Selenium/jar_files/jar_files/selenium-support-3.141.0.jar"/>
+	<classpathentry kind="lib" path="E:/Tops 2024/logback.jar/logback.jar"/>
+	<classpathentry kind="lib" path="E:/Tops 2024/slf4j.jar/slf4j.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
