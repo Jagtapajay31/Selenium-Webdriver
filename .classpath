@@ -5,6 +5,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="E:/Tops 2024/Selenium/jar_files/jar_files/animal-sniffer-annotations-1.14.jar"/>
 	<classpathentry kind="lib" path="E:/Tops 2024/Selenium/jar_files/jar_files/byte-buddy-1.8.15.jar"/>
