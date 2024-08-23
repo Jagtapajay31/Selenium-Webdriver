@@ -1,4 +1,4 @@
-package com.tetsng;
+package com.testng;
 /*
  * What is TestNG?
  * TestNG is an automation testing framework in which NG stands for “Next Generation”.
