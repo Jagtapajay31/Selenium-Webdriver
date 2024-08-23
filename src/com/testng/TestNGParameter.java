@@ -3,16 +3,25 @@ package com.testng;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestNGParameter {
-  @Test
-  public void f() throws InterruptedException {
-  
-  System.setProperty("webdriver.edge.driver","E:\\Tops 2024\\Selenium\\msedgedriver.exe");
+ WebDriver driver;
+ 
+	@BeforeTest
+	public void before() throws InterruptedException {
+	System.setProperty("webdriver.edge.driver","E:\\Tops 2024\\Selenium\\msedgedriver.exe");
 	WebDriver driver=new EdgeDriver();
 	driver.get("https://www.saucedemo.com/");
 	Thread.sleep(2000);
+	}
+	
+	@Test
+	@Parameters({"username","password"})
+  public void f(String username,String password) throws InterruptedException {
 	
 	driver.findElement(By.name("user-name")).sendKeys("problem_user");
 	Thread.sleep(2000);
@@ -22,6 +31,10 @@ public class TestNGParameter {
 	
 	driver.findElement(By.name("login-button")).click();
 	Thread.sleep(2000);
-	driver.close();
+	
 	}
+	
+	@AfterTest
+	drive.close();
 }
+

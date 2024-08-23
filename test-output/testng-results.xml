@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-23T10:28:28 IST" name="Suite" finished-at="2024-08-23T10:28:28 IST" duration-ms="72">
+  <suite started-at="2024-08-23T10:38:23 IST" name="Default suite" finished-at="2024-08-23T10:38:39 IST" duration-ms="16074">
     <groups>
-      <group name="red">
-        <method signature="TestNGGroup.greenandred()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" name="greenandred" class="com.testng.TestNGGroup"/>
-      </group> <!-- red -->
-      <group name="green">
-        <method signature="TestNGGroup.green1()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" name="green1" class="com.testng.TestNGGroup"/>
-        <method signature="TestNGGroup.green2()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" name="green2" class="com.testng.TestNGGroup"/>
-        <method signature="TestNGGroup.green3()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" name="green3" class="com.testng.TestNGGroup"/>
-        <method signature="TestNGGroup.greenandred()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" name="greenandred" class="com.testng.TestNGGroup"/>
-      </group> <!-- green -->
     </groups>
-    <test started-at="2024-08-23T10:28:28 IST" name="Test" finished-at="2024-08-23T10:28:28 IST" duration-ms="72">
-      <class name="com.testng.TestNGGroup">
-        <test-method signature="green1()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" started-at="2024-08-23T10:28:28 IST" name="green1" finished-at="2024-08-23T10:28:28 IST" duration-ms="17" status="PASS">
+    <test started-at="2024-08-23T10:38:23 IST" name="Default test" finished-at="2024-08-23T10:38:39 IST" duration-ms="16074">
+      <class name="com.testng.TestngWebdriver">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.testng.TestngWebdriver@7193666c]" started-at="2024-08-23T10:38:23 IST" name="before" finished-at="2024-08-23T10:38:30 IST" duration-ms="7203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- green1 -->
-        <test-method signature="green2()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" started-at="2024-08-23T10:28:28 IST" name="green2" finished-at="2024-08-23T10:28:28 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="click()[pri:0, instance:com.testng.TestngWebdriver@7193666c]" started-at="2024-08-23T10:38:30 IST" name="click" finished-at="2024-08-23T10:38:32 IST" duration-ms="2161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- green2 -->
-        <test-method signature="green3()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" started-at="2024-08-23T10:28:28 IST" name="green3" finished-at="2024-08-23T10:28:28 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- click -->
+        <test-method signature="enterUsername()[pri:0, instance:com.testng.TestngWebdriver@7193666c]" started-at="2024-08-23T10:38:32 IST" name="enterUsername" finished-at="2024-08-23T10:38:34 IST" duration-ms="2216" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- green3 -->
-        <test-method signature="greenandred()[pri:0, instance:com.testng.TestNGGroup@6580cfdd]" started-at="2024-08-23T10:28:28 IST" name="greenandred" finished-at="2024-08-23T10:28:28 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- enterUsername -->
+        <test-method signature="enterpassword()[pri:5, instance:com.testng.TestngWebdriver@7193666c]" started-at="2024-08-23T10:38:34 IST" name="enterpassword" finished-at="2024-08-23T10:38:36 IST" duration-ms="2133" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- greenandred -->
-      </class> <!-- com.testng.TestNGGroup -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- enterpassword -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.testng.TestngWebdriver@7193666c]" started-at="2024-08-23T10:38:36 IST" name="after" finished-at="2024-08-23T10:38:39 IST" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.testng.TestngWebdriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
