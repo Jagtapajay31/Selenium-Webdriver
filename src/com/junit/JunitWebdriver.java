@@ -1,4 +1,4 @@
-package com.junit;
+	package com.junit;
 
 import org.junit.After;
 import org.junit.Before;
@@ -18,7 +18,7 @@ public class JunitWebdriver {
 	Thread.sleep(2000);
 	}
 	
-	@Test
+	@Test	
 	public void test() throws InterruptedException {
 	driver.findElement(By.cssSelector("input.input_error.form_input")).sendKeys("standard_user");
 	Thread.sleep(2000);

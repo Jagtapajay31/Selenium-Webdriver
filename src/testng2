@@ -14,6 +14,7 @@
   <parameter name="password" value="secret_sauce"/>
     <classes>
       <class name="com.tetsng.TestNGParameter"/>
+            <class name="com.testng.MenuIcon"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -35,6 +35,7 @@ public class TestNGParameter {
 	}
 	
 	@AfterTest
-	drive.close();
+	public void after() {
+	driver.close();
+	}
 }
-
