@@ -3,15 +3,15 @@ package com.testng;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestNGParameter {
  WebDriver driver;
  
-	@BeforeTest
+	@BeforeClass
 	public void before() throws InterruptedException {
 	System.setProperty("webdriver.edge.driver","E:\\Tops 2024\\Selenium\\msedgedriver.exe");
 	WebDriver driver=new EdgeDriver();
@@ -34,8 +34,8 @@ public class TestNGParameter {
 	
 	}
 	
-	@AfterTest
-	public void after() {
+	@AfterClass
+	public void After() {
 	driver.close();
 	}
 }

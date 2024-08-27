@@ -12,5 +12,7 @@ public class TestNGParameter2 extends TestNGParameter {
 		Thread.sleep(2000);
 		driver.findElement(By.id("logout_sidebar_link")).click();
 		Thread.sleep(2000);
+		
+		driver.close();
 	}
 }
