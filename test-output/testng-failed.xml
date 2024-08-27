@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.TestngDepends">
+      <class name="com.testng.TestNGParameter2">
         <methods>
-          <include name="enterPassword"/>
-          <include name="enterUsername"/>
-          <include name="after"/>
           <include name="before"/>
-          <include name="clickLogin"/>
+          <include name="f"/>
+          <include name="test"/>
+          <include name="after"/>
         </methods>
-      </class> <!-- com.testng.TestngDepends -->
+      </class> <!-- com.testng.TestNGParameter2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
