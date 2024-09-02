@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.TestNGParameter">
+      <class name="com.FW.DataDrivenFW">
         <methods>
-          <include name="before"/>
-          <include name="f"/>
-          <include name="After"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.testng.TestNGParameter -->
+      </class> <!-- com.FW.DataDrivenFW -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
