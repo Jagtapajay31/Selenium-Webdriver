@@ -2,6 +2,7 @@ package com.testng;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -13,8 +14,8 @@ public class TestNGParameter {
  
 	@BeforeClass
 	public void before() throws InterruptedException {
-	System.setProperty("webdriver.edge.driver","E:\\Tops 2024\\Selenium\\msedgedriver.exe");
-	WebDriver driver=new EdgeDriver();
+	System.setProperty("webdriver.chrome.driver","E:\\Tops 2024\\Selenium\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.saucedemo.com/");
 	Thread.sleep(2000);
 	}

@@ -9,12 +9,12 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="Test1">
+<test name="Test1">
   <parameter name="username" value="problem_user"/>
   <parameter name="password" value="secret_sauce"/>
     <classes>
       <class name="com.tetsng.TestNGParameter"/>
-            <class name="com.testng.MenuIcon"/>
+            <class name="com.testng.TestNGParameter2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
