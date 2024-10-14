@@ -31,6 +31,5 @@ public class EleDynamicWebTable {
 			System.out.println();
 			Thread.sleep(2000);
 		}
-		
 	}
 }
