@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.FW.HybridDrivenFW">
+      <class name="com.testng.FirstDemo">
         <methods>
-          <include name="test"/>
+          <include name="test2"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- com.FW.HybridDrivenFW -->
+      </class> <!-- com.testng.FirstDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
