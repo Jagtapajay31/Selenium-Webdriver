@@ -3,7 +3,6 @@ package com.testng;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -22,7 +21,7 @@ public class TestNGParameter {
 	
 	@Test
 	@Parameters({"username","password"})
-  public void f(String username,String password) throws InterruptedException {
+  public void test(String username,String password) throws InterruptedException {
 	
 	driver.findElement(By.name("user-name")).sendKeys("problem_user");
 	Thread.sleep(2000);
